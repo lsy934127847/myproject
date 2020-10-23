@@ -1,0 +1,16 @@
+{
+  "id": "2114550",
+  "name": "我的项目",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1672992",
+      "name": "三角形",
+      "font_class": "sanjiaoxing-copy",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}

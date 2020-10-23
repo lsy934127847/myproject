@@ -1,0 +1,246 @@
+.header{
+ height:150px;
+ margin-bottom: 60px;
+}
+.header-con{
+    height:150px;
+    width:1190px;
+    margin:0 auto;
+    text-align: center;
+    line-height: 150px;
+    color:rgb(34, 4, 10);
+    font-size: 60px;
+    background: rgba(15, 60, 185, 0.2);
+    box-sizing: border-box;
+    border: 3px solid rgb(22, 91, 170);
+    border-radius: 40px;
+    /* opacity: 0.5; */
+   }
+   /* body{
+       width:100%;
+       height:100%;
+       background: url(../images/网易暴雪周边商城_中国授权商城_魔兽世界_星际争霸2_暗黑3产品/ia_200000172.png) no-repeat ;
+   } */
+.main{
+    /* height: */
+    
+}
+.main-con{
+    
+    border-top:2px solid rgb(22, 91, 170);
+    width:1190px;
+    margin:0 auto;
+    border-bottom:2px solid rgb(22, 91, 170);
+    padding:40px;
+    background: rgba(15, 60, 185, 0.2);
+}
+.title{
+    width:1190px;
+    height:60px;
+    border:2px solid rgb(22, 91, 170);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.title>li{
+    /* float: left; */
+    /* line-height: 40px; */
+    color:rgb(34, 4, 10);
+}
+.product{
+    border:2px solid rgb(22, 91, 170);
+    box-sizing: border-box;
+}
+.product_list{
+    border-bottom:2px solid rgb(22, 91, 170);
+}
+.product_list>li{
+    float: left;
+    height:150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.product_list>li>p{
+    width:300px;
+}
+.massage>img{
+   width:130px;
+   height:130px;
+   display: block;
+   border:2px solid rgb(22, 91, 170);
+}
+.box-01{
+    margin:0 20px;
+}
+.box-02{
+    margin-right:200px;
+}
+.name{
+    font-size: 14px;
+}
+.box-03{
+    margin-right:60px;
+   
+}
+.box-03>span{
+    background: rgba(15, 60, 185, 0.2);
+}
+.num{
+    width:40px;
+    height:20px;
+    border: none;
+}
+.box-04>div:nth-child(1){
+    width:20px;
+    height:20px; 
+    font-size: 14px;
+    color:#666;
+    text-align: center;
+    line-height: 20px;
+    background: rgba(15, 60, 185, 0.2);
+    cursor: pointer;
+}
+.box-04>div:nth-child(3){
+    width:20px;
+    height:20px; 
+    font-size: 14px;
+    color:#666;
+    text-align: center;
+    line-height: 20px;
+    background: rgba(15, 60, 185, 0.2);
+    cursor: pointer;
+}
+.box-04{
+    margin-right:60px;
+}
+.box-05{
+    margin-right:60px;
+   
+}
+.box-05>span{
+    background: rgba(15, 60, 185, 0.2); 
+}
+.del{
+    background: rgba(15, 60, 185, 0.2);
+    width:60px;
+    height:40px;
+    font-size: 14px;
+    color:rgb(34, 4, 10);
+    line-height: 20px;
+    border: none;
+    cursor: pointer;
+}
+.box-01>input{
+    width:30px;
+    height:30px;
+    background: #fff;
+}
+.name{
+    margin-left:20px;
+    background: rgba(15, 60, 185, 0.2);
+}
+.title>li{
+    background: rgba(15, 60, 185, 0.2);
+}
+.title>li:nth-child(1){
+  margin:0 20px;
+}
+.title>li:nth-child(2){
+    margin:0 150px;
+}
+.title>li:nth-child(3){
+    margin-left:280px;
+}
+.title>li:nth-child(4){
+    margin-left:80px;
+}
+.title>li:nth-child(5){
+    margin-left:100px;
+}
+.title>li:nth-child(6){
+    margin-left:80px;
+}
+.box-05>span{
+    color:red;
+}
+
+.footer{
+    margin-top:20px;
+}
+.footer-con{
+    width:1280px;
+    margin:0 auto;
+    height:60px;
+    background: rgba(15, 60, 185, 0.2);
+    border:2px solid rgb(22, 91, 170);
+    box-sizing: border-box;
+}
+.footer-con>ul{
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-con>ul>li{
+    /* height:100%; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: rgba(15, 60, 185, 0.2);
+    cursor: pointer;
+}
+.total_num{
+    display: block;
+    width:20px;
+    height:20px;
+    color:red;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.total_price{
+    display: block;
+    width:40px;
+    height:40px;
+    color:red;
+    line-height: 40px;
+    text-align: center;
+}
+.end{
+    width:40px;
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+   
+}
+.fun_msg{
+    width:300px;
+    /* height: */
+    position: absolute;
+    top: 0;
+    right: 10px;
+    background: rgba(15, 60, 185, 0.2);
+    text-align: center;
+    
+}
+.fun_msg>p{
+    margin:20px 0;
+}
+.advice{
+    width:300px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    background: rgba(15, 60, 185, 0.2);
+}
+.advice>p{
+    margin:20px 0;
+}
+.advice>p:nth-child(1){
+    text-align: center;
+}

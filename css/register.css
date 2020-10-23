@@ -1,0 +1,165 @@
+.header{
+    width:100%;
+    height:64px;
+    background: #fff;
+    margin-bottom: 22px;
+}
+.header-con{
+   width:1100px;
+   height:64px;
+   line-height: 64px;
+   display: flex;
+   justify-content: space-between;
+   margin:0 auto;
+   /* background: aqua; */
+}
+.header-con>div{
+    height:64px;
+    display: flex;
+    align-items: center;
+}
+.header-con>div:nth-child(1)>p:nth-child(1){
+   margin-right:10px;
+   font-size: 34px;
+   color: #2c82ff;
+   cursor: pointer;
+}
+.header-con>div:nth-child(1)>p:nth-child(2){
+    font-size: 24px;
+    cursor: pointer;
+}
+.header-con>div:nth-child(2)>p:nth-child(1){
+    margin-right:10px;
+ }
+ .header-con>div:nth-child(2)>p:nth-child(2){
+     width:32px;
+     height:16px;
+     border-radius: 8px;
+     background: red;
+     color:#fff;
+     line-height: 12px;
+     font-size: 12px;
+     text-align: center;
+ }
+ .header-con>div:nth-child(2)>p:nth-child(1):hover{
+     color:#2c82ff;
+     cursor: pointer;
+ }
+ .main{
+     width:100%;
+     margin-bottom: 40px;
+ }
+ .main-con{
+    width:1100px;
+    margin:0 auto;
+    padding-bottom: 100px;
+    background: #fff;
+}
+.register{
+    width:444px;
+    background: #fff;
+    margin:0 auto;
+    padding-top: 50px;
+}
+.register-header>div:nth-child(1){
+   display: flex;
+   box-sizing: border-box;
+   padding:0 30px;
+   justify-content: space-between;
+   margin-bottom:20px;
+}
+.register-header>div:nth-child(2){
+    display: flex;
+    box-sizing: border-box;
+   justify-content: space-between;
+   color:#666;
+ }
+ .register-header>div:nth-child(1)>div{
+     width:40px;
+     height:40px;
+     border: 1px solid #2c82ff;
+     border-radius: 50%;
+     color:#666;
+     text-align: center;
+     line-height: 40px;
+ }
+ .register-header{
+     margin-bottom: 40px;
+ }
+ .account{
+     margin-bottom: 20px;
+ }
+ .password{
+    margin-bottom: 20px;
+}
+.check{
+    margin-bottom: 20px;
+}
+.btn{
+    margin-bottom: 20px;
+}
+.account>input{
+   width:100%;
+   height:40px;
+   text-indent: 20px;
+}
+.password>input{
+    width:100%;
+    height:40px;
+    text-indent: 20px;
+ }
+ .check>span{
+font-size: 14px;
+ }
+ .have>span{
+  font-size: 14px;
+ }
+ .btn>button{
+     height:40px;
+     color:#fff;
+     text-align: center;
+     line-height: 40px;
+     width:100%;
+     background-color: #2c82ff;
+     border: none;
+     font-size: 25px;
+ }
+ .have>a{
+    font-size: 14px;
+ }
+ body{
+     width:100%;
+     height:100%;
+     background-color: #cdcdcd;
+ }
+ .footer-con{
+    width:600px; 
+    margin:0 auto;
+    font-size: 14px;
+    color: #666;
+ }
+.footer-con>ul{
+    display: flex;
+    margin:0 auto;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.footer-con>ul>li{
+    cursor: pointer;
+}
+.footer-con>ul>li:hover{
+    color:#2c82ff;
+}
+.footer-con>div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+   
+}
+.footer-con>div>p:hover{
+    cursor: pointer; 
+    color:#2c82ff; 
+}
+.footer-con>p{
+    text-align: center;   
+}

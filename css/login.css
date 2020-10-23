@@ -1,0 +1,155 @@
+.main{
+    height:650px;
+    background: url(../images/login_img/ia_100000003.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+.login{
+    position: absolute;
+    width:380px;
+    height:350px;
+    background-color: #fff;
+    right: 300px;
+    top:150px;
+    border-radius: 10px;
+}
+.login>div:nth-of-type(1){
+    display: flex;
+    box-sizing: border-box;
+    padding:20px 80px;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.login>form>input{
+    width:300px;
+    margin:0 auto;
+    display: block;
+    height:30px;
+    color:#333;
+    text-indent: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #666;
+}
+.login>form>button{
+    display: block;
+    background: #00aeff;
+    height:44px;
+    width:300px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    line-height: 44px;
+    font-size: 18px;
+    border: none;
+    margin:0 auto;
+    margin-bottom: 30px;
+}
+.login>form>p{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.login>form>div{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding:0 40px;
+}
+.login>form{
+    position: relative;
+}
+.login>form>li{
+    width:24px;
+    height:24px;
+    position: absolute;
+ line-height: 24px;
+ font-size: 20px;
+}
+.login>form>li:nth-of-type(1){
+   top:4px;
+   left: 45px;
+}
+.login>form>li:nth-of-type(2){
+    top:56px;
+    left: 45px;
+ }
+
+.iphone{
+    background-color: #fff;
+}
+ .login>.iphone>form>input{
+    width:300px;
+    margin:0 auto;
+    display: block;
+    height:30px;
+    color:#333;
+    text-indent: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #666;
+}
+.login>.iphone>form>a{
+    display: block;
+    background: #00aeff;
+    height:44px;
+    width:300px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    line-height: 44px;
+    font-size: 18px;
+    border: none;
+    margin:0 auto;
+    margin-bottom: 30px;
+}
+.login>.iphone>form>p{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.login>.iphone>form>div{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding:0 40px;
+}
+.login>.iphone>form{
+    position: relative;
+}
+.login>.iphone>form>li{
+    width:24px;
+    height:24px;
+    position: absolute;
+ line-height: 24px;
+ font-size: 20px;
+}
+.login>.iphone>form>li:nth-of-type(1){
+   top:4px;
+   left: 45px;
+}
+.login>.iphone>form>li:nth-of-type(2){
+    top:56px;
+    left: 45px;
+ }
+ .iphone>div{
+     box-sizing: border-box;
+     padding:20px 40px;
+     margin-bottom: 20px;
+ }
+ .iphone>div>p{
+     float: right;
+     font-size: 14px;
+     color: #666;
+     height:20px;
+     line-height: 20px;
+ }
+ .iphone>div>p>span{
+     font-size: 14px;
+ }
+ .iphone{
+     padding-bottom: 20px;
+     position: absolute;
+     width:100%;
+     left: 0;
+     top:50px;
+     display: none
+ }

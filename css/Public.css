@@ -1,0 +1,18 @@
+*{
+    padding:0;
+    margin:0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clearfloat::after{
+    content:"";
+    clear: both;
+    display: block;
+    overflow-y: hidden;
+    height: 0;
+    visibility: hidden;
+}

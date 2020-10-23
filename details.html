@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品详情页</title>
+    <link rel="stylesheet" href="./css/Public.css">
+    <link rel="stylesheet" href="./css/details.css">
+</head>
+<body>
+    <div>   </div>
+    <div class="main">
+        <div class="main-con clearfloat">
+               <div class="left" id="box">
+                   <div id="small">
+                       <img src="" alt="" class="bigimg">
+                       <div id="mask" class="mask"></div>
+                   </div>
+                   <div>
+                      
+                   </div>
+                   <div id="big" style="overflow: hidden;">
+                        <img src="./images/details_img/ia_300000001.jpg" alt="" id="bigImg" class="biggerimg">
+                   </div>
+               </div>
+               <div class="center">
+                   <p class="product_name"></p>
+                   <div class="price">
+                       <span>价格</span>
+                       <span>￥</span>
+                       <span class="product_price"></span>
+                   </div>
+                   <div class="address">
+                       <span>运费</span>
+                       <span>深圳</span>
+                       <span>+</span>
+                       <span>宝安区</span>
+                       <span>+</span>
+                   </div >
+                   <div class="evaluate">
+                       <span>累计评价</span>
+                       <span>77</span>
+                       <span>送天猫积分</span>
+                       <span>194</span>
+                   </div>
+                   <div class="color">
+                       <span>颜色分类</span>
+                       <img src="./images/details_img/1.jpg" alt="">
+                   </div>
+                   <div class="size">
+                        <span>大小</span> 
+                       <span>官方正版授权</span> 
+                   </div>
+                   <div class="count">
+                       <div>数量</div>
+                       <div>
+                            <input type="text" class="num" value="1">
+                       </div>
+                       <div>
+                            <p class="add" style="cursor: pointer">+</p>
+                            <p class="jian" style="cursor: pointer">-</p>
+                       </div>
+                       <div>
+                           件
+                       </div>
+                     
+                   </div>
+                   <div class="buy">
+                        <button>立即购买</button>
+                        <button class="addcart">加入购物车</button>
+                    </div>
+                    <div class="promise">
+                        <span>服务承诺</span>
+                        <span>正品保证</span>
+                        <span>极速退款</span>
+                        <span>退货运费险</span>
+                        <span>支付方式+</span>
+                        <span>七天无理由退换</span>
+                    </div>
+                    <div class="safe">
+                    检测到您当前处于非安全网络环境，部分商品信息可能不准确，请在交易支付页面再次确认商品价格信息。
+                    </div>
+               </div>
+               <div class="right">
+                   <p>看了又看</p>
+                <div class="move"style=" overflow: hidden;">
+                   <ul class="move-01 move-00">
+                       <li>
+                           <img src="./images/details_img/ia_100002652.jpg" alt="">
+                           <p>￥255</p>
+                       </li>
+                       <li>
+                            <img src="./images/details_img/ia_100002653.jpg" alt="">
+                            <p>￥255</p>
+                       </li>
+                       <li>
+                            <img src="./images/details_img/ia_100002654.jpg" alt="">
+                            <p>￥255</p>
+                       </li>
+                   </ul>
+                   <ul class="move-02 move-00">
+                        <li>
+                            <img src="./images/details_img/ia_100002655.jpg" alt="">
+                            <p>￥255</p>
+                        </li>
+                        <li>
+                             <img src="./images/details_img/ia_100002656.jpg" alt="">
+                             <p>￥255</p>
+                        </li>
+                        <li>
+                             <img src="./images/details_img/ia_100002658.jpg" alt="">
+                             <p>￥255</p>
+                        </li>
+                    </ul>
+                    <ul class="move-03 move-00">
+                            <li>
+                                <img src="./images/details_img/ia_100002659.jpg" alt="">
+                                <p>￥255</p>
+                            </li>
+                            <li>
+                                 <img src="./images/details_img/ia_100002660.jpg" alt="">
+                                 <p>￥255</p>
+                            </li>
+                            <li>
+                                 <img src="./images/details_img/ia_100002661.jpg" alt="">
+                                 <p>￥255</p>
+                            </li>
+                        </ul>
+                    </div>
+                        <div class="arrow">
+                            <p class="arrow-top">⬆</p>
+                            <p class="arrow-bottom">⬇</p>
+                        </div>
+               </div>
+        </div>
+    </div>
+    <div class="fun_msg">
+        <p>功能简介</p>
+        <p>点击+-：更新数量</p>
+        <p>选中input：可直接输入数量</p>
+        <p>点击加入购物车：将该商品存入myshop数据库，并新开窗口跳转购物车页面，并将数量通过地址栏传递给跳转页面</p>
+        <p>鼠标移入大图下方位置，切换不同类型，并显示在大图中</p>
+        <p>点击最右边上下箭头，图片轮播</p>
+    </div>
+    <div class="advice">
+        <p>建议</p>
+        <p>点击+/-/加入购物车/上下箭头查看功能的实现</p>
+        <p>该页面将首页点击的商品图片，价格，名称渲染进来</p>
+        <p>到首页中点击 最新周边 区域添加不同的商品</p>
+    </div>
+</body>
+</html>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/details.js"></script>

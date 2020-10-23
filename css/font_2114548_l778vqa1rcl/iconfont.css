@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1602512254330'); /* IE9 */
+  src: url('iconfont.eot?t=1602512254330#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPUAAsAAAAAB8QAAAOFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDMIMPATYCJAMMCwgABCAFhG0HMxvSBsieBXZjdQPRy+hgmGT/og0eeNv0/fsHOY6Y2CjipKZIXUlNdYx0M7GxMxdrbe9FhLTD9Lf4Cfd8tie2f2KhEUmVVMhEQv5GAgSoB/D/XE7vrhKf37Jc5ph81AswDiigsRdZgQTkDWMXtMTNEIBOpHSiouruDWqomL0EICY4dAlqGS1qQ6FAQ2CsmKgiNmFAU1YrdwE2Bt8Xf9ikgYJBYg5ssZ6rcPTd9/sO6XQ5DfEQeNOZATYNJJAOVBDDKq0DKEbRdBJdlZaaM42oCJSpAi4XAVeTGzf6x1NAGDHz3QFIhjEFvvs6DAj4vuMKFAAkAEbADVgLXINK/6ELGILjQ3x8zKaR6yxHX3SJ5+KFV2J+9qxz/9MOqCvm6bzr4enOzu3g3OX/9Gnws2ddz1507Xlu2bFHxO0NevBCPH9eYevBJsfRPN4Xouzqjfc80S9k97WkDH3NNhTndrPX2p25o3foI7qv3bh3+VI8zlNrzghx4kLnzrMHzqw5te90QIClPc0hlqdPO1zFi+G7eH+zre076/0Pd27mQm0ifgNws+L6O6oG1nbNocVcDs6r2Y+vKtrvOUp/fYrdP12a5NFdpBmq7mTPEiyWx4pEWvaQSe3LHz08eFmau8wu7eMv9owuUUYtXTZaYBY+WRlVMj6Up1v0vENs6gi1HHR81QWYekwWrdeEqVcLHtaxGBf9Z2fM/mn3rsCKXrv1OdzrS0j26MPRq5AvR649d5aIlvHOs4BYaBGhBREAXNIpSwAAehn4A3/D990/rw73KvivNVUA3pxZsQibXWpHP4B2ezYBv4uHylRNYOqkqnAdrpGQNFN+GWzI5jJ+UjGAr/fD5QGd80GgEZCAghsRINGIR1VSOhgwkw9GNIpBJ031dDN+plFEqCYg1XIAAm8XQcGTayDxdg9VSe/AQKB/YMQ7CToW4begmcQcevk0kiJScVSODoU9zTZEjbDwhfTYkYK0ICB/UBCaAczJzM4nLsmjYIoh0xN9MyPS0Bqwi1VgO3IcxikBW6REC3sU7bZZWdaqNy1GswsNygkgJCIIFTSKHORAgfHQvOoRjcLnXyB0YhwkggZclfkDIiDErB/lyJTdAb2Uep1wt3LNdBJ0NmYQoYGsBDAuqAqYCceKMmhKdTsLQiFiwT4gvGMrC1WydpUulpe777cG0DFXkEIRUqjIaWO94vSZDAAAAAA=') format('woff2'),
+  url('iconfont.woff?t=1602512254330') format('woff'),
+  url('iconfont.ttf?t=1602512254330') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1602512254330#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ren:before {
+  content: "\e612";
+}
+
+.icon-suo:before {
+  content: "\e696";
+}
+

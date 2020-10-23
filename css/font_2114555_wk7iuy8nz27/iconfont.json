@@ -1,0 +1,16 @@
+{
+  "id": "2114555",
+  "name": "我的项目",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9570202",
+      "name": "喇叭",
+      "font_class": "laba",
+      "unicode": "e6e2",
+      "unicode_decimal": 59106
+    }
+  ]
+}

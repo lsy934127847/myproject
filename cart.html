@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="./css/Public.css">
+    <link rel="stylesheet" href="./css/cart.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-con">
+            全部商品
+        </div>
+    </div>
+    <div class="main">
+        <div class="main-con">
+           <ul class="title">
+               <li>选中</li>
+               <li>商品信息</li>
+               <li>单价</li>
+               <li>数量</li>
+               <li>金额</li>
+               <li>操作</li>
+           </ul>
+           <div class="product">
+                        
+           </div>
+          
+        </div>
+    </div>
+    <div class="footer">
+        
+        <div class="footer-con">
+            <ul>
+                <li>
+                    <input type="checkbox">
+                    <p>全选</p>
+                </li>
+                <li>删除</li>
+                <li>移入收藏夹</li>
+                <li>分享</li>
+                <li>
+                    <span>已选商品 : </span>
+                    <span class="total_num">0</span>
+                    <span>件</span>
+                </li>
+                <li>
+                    <span>合计(不含运费):</span>
+                    <span class="total_price">0.00</span>
+                </li>
+                <li class="end" style=" background: rgba(15, 60, 185, 0.5);">
+                    结算
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="fun_msg">
+        <p>功能简介</p>
+        <p>点击删除按钮：删掉此商品，同时更新数据库，更新结算中商品金额和商品类别数量</p>
+        <p>点击单选框：选中该商品，更新结算中商品金额和商品数量</p>
+        <p>点击+-：更新此商品数量和金额，选中状态下更新结算中商品金额和商品类别数量,同时更新数据库</p>
+        <p>底部结算中：只有被选中才会更新数量和金额</p>
+        
+    </div>
+
+    <div class="advice">
+        <p>建议</p>
+        <p>1.到主页中点击 最新 周边区域  添加多个商品,</p>
+        <p>2.点击+/-/选中框/删除按钮，查看值数量和金额的变化</p>
+        <p>3.该页面实现了和数据库（myshop）的同步更新</p>
+        <p>4.请先到model路径下执行文件创建myshop数据库和cart表</p>
+    </div>
+</body>
+</html>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/cart.js"></script>

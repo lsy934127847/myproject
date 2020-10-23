@@ -1,0 +1,16 @@
+{
+  "id": "2114548",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12387149",
+      "name": "信",
+      "font_class": "xin",
+      "unicode": "e90f",
+      "unicode_decimal": 59663
+    }
+  ]
+}
